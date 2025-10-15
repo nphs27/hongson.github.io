@@ -1,0 +1,178 @@
+.container{
+    width: 1000px;
+    height: 1140px;
+    font-size: 13px;
+    font-family: tahoma;
+    margin: 0px auto;
+}
+
+.menutop{
+    background-color: #6be302;
+    
+    height: 40px;
+    width: auto;
+}
+.menutop li{
+    list-style-type: none;
+    display: flex;
+    float: left;
+}
+
+.menutop ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+.menutop li a{
+    text-decoration: none;
+    color:white;
+    font-size: 15px;
+    font-weight: bold;
+    border-right: 1px solid #f1f1f1;
+    padding: 10px 15px 11px 15px;
+    float: left;
+}
+
+.menutop li a:hover{
+    color: rgb(0, 0, 0);
+    background-color: #85ffff;
+    font-size: 16px;
+}
+
+.menutop li a:active{
+    color: #1949b5;
+}
+
+.banner{
+    height: 280px;
+    width: 1000px;
+}
+.banner img{
+    height: 270px;
+    width: 100%;
+}
+#id{
+    border-right: 0px;
+}
+
+.detail{
+    width: auto;
+    height: 750px;
+    float: left;
+}
+
+.left{
+    height: auto;
+    width: 270px;
+    float: left;
+}
+
+.lefttop{
+    float: left;
+    border: 1px solid gray;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.danhmuc img{
+    float: left;
+    padding: 5px;
+}
+
+.danhmuc{
+    width: 270px;
+    height: 40px;
+    background-color: #6be302;
+    float: left;
+    font-size: 14px;
+    color: white;
+}
+.danhmuc h2{
+    padding-top: 8px;
+    float: left;
+    margin: 0px;
+}
+
+.lefttop ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+.lefttop li{
+    display: block;
+    border-bottom: 1px solid gray;
+    list-style-type: none;
+}
+
+.lefttop li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 10px;
+    line-height: 40px;
+}
+
+.lefttop img{
+    float: left;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.lefttop li a:hover{
+    color: rgb(106, 0, 255);
+}
+
+.right{
+    height: auto;
+    width: 700px;
+    margin-left: 20px;
+    float: left;
+    margin-top: 5px;
+}
+
+.rightbox{
+    float: left;
+    margin-bottom: 10px;
+    border-bottom: 1px lightgray solid;
+    padding-bottom: 10px;
+}
+
+.rightbox img{
+    float: left;
+    width: 120px; height: 120px;
+    padding: 5px;
+}
+.rightbox img:hover{
+    transform: scale(1.08);
+    transition: .5s;
+}
+
+.rightbox h2{
+    padding: 0px;
+    font-size: 15px;
+    margin: 5px;
+}
+.rightbox h2:hover{
+    color: rgb(255, 40, 144);
+}
+.rightbox p{
+    text-align: justify;
+    font-size: 14px;
+}
+
+.footer{
+    width: 940px;
+    float: left;
+    background-color: #6be302;
+    color: white;
+    padding: 10px 30px;
+}
+.footer .icon {
+     float: right;
+    margin: -40px 0px 0px 0px;
+  position: relative;
+  color: #262626;
+  transition: .5s;
+  z-index: 3;
+}

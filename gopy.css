@@ -1,0 +1,102 @@
+.container {
+  width: 1000px;
+  height: 1140px;
+  font-size: 13px;
+  font-family: tahoma;
+  margin: 0px auto;
+}
+
+.menutop {
+  background-color: #6be302;
+  height: 40px;
+  width: auto;
+}
+.menutop li {
+  list-style-type: none;
+  display: flex;
+  float: left;
+}
+
+.menutop ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+.menutop li a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  border-right: 1px solid #f1f1f1;
+  padding: 10px 15px 11px 15px;
+  float: left;
+}
+
+.menutop li a:hover {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  background-color: #85ffff;
+  font-size: 16px;
+}
+
+.menutop li a:active {
+  color: gold;
+}
+
+.banner {
+  height: 280px;
+  width: 1000px;
+}
+.banner img{
+  height: 270px;
+  width: 100%;
+}
+#id {
+  border-right: 0px;
+}
+
+.detail {
+  text-align: center;
+  line-height: 40px;
+}
+.detail h2 {
+  color: #27ff01;
+}
+.gopy {
+  width: 100px;
+  height: 20px;
+  background-color: #ff0048;
+  padding: 5px;
+  margin: 10px 0px 20px 450px;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+}
+.gopy a {
+  text-decoration: none;
+  color: white;
+}
+.gopy a:hover {
+  color: black;
+}
+
+form {
+  font-size: 14px;
+}
+.footer {
+  width: 940px;
+  float: left;
+  background-color: #6be302;
+  color: white;
+  padding: 10px 30px;
+}
+.footer .icon {
+     float: right;
+    margin: -25px 0px 0px 0px;
+  position: relative;
+  color: #262626;
+  transition: .5s;
+  z-index: 3;
+}
+
